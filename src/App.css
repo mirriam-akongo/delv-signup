@@ -1,0 +1,164 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Signup*/
+.signup {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #ffffff;
+}
+
+/* Sign Up Left side */
+
+.left_rec {
+  position: absolute;
+  width: 536px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+
+  /* Main - Blue */
+
+  background: linear-gradient(0deg, #017eff, #017eff), #ffffff;
+}
+/* delv_bold 3 */
+
+.delv_bold {
+  position: absolute;
+  width: 109.29px;
+  height: 42px;
+  left: 46px;
+  top: 43px;
+  background: url(./assets/delv_bold.png);
+}
+.group_93 {
+  position: absolute;
+  width: 444px;
+  height: 191px;
+  left: 46px;
+  top: 315px;
+}
+
+/* Explorer your creativity */
+.firsth {
+  position: absolute;
+  width: 313px;
+  height: 106px;
+  /* left: 46px; */
+  /* top: 315px; */
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 53px;
+
+  /* White */
+
+  color: #ffffff;
+}
+.para {
+  position: absolute;
+  width: 444px;
+  height: 66px;
+  /* left: 46px; */
+  top: 125px;
+  /*440-315*/
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  /* White */
+
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* Signup right side */
+.right_rec {
+  position: absolute;
+  width: 904px;
+  height: 900px;
+  left: 536px;
+  top: 0px;
+
+  /* White */
+
+  background: #ffffff;
+}
+
+.register_form {
+  /* Group 94 */
+
+  position: absolute;
+  width: 369px;
+  height: 640.29px;
+  left: 256px;
+  top: 130px;
+  border: 1px solid rgb(24, 14, 14);
+}
+
+.formh3 {
+  /* Create an account */
+
+  position: absolute;
+  width: 219.56px;
+  height: 26.44px;
+  left: 75.87px;
+  /* top: 130px; */
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 23px;
+
+  /* Charcoal */
+
+  color: #414250;
+}
