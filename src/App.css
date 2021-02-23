@@ -352,7 +352,6 @@
   top: 190.82px;
 
   /* line color */
-
   border: 1px solid #bfd1e0;
 }
 
@@ -370,7 +369,7 @@
   background: #f2f5f9;
   /* line color */
 
-  border: 1px solid #bfd1e0;
+  border: 1px #bfd1e0;
   box-sizing: border-box;
   border-radius: 4px;
 }
