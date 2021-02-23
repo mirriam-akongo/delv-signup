@@ -11,6 +11,7 @@ export default class Signup extends Component {
         <Grid className='signup'>
           <Cell>
             <div className='left_rec'>
+              <div className='eclipse28'></div>
               <img src={logo} alt='delv-logo' className='delv_bold' />
               <div className='group_93'>
                 <h1 className='firsth'>Explorer your creativity</h1>
@@ -19,6 +20,8 @@ export default class Signup extends Component {
                   part of the most helpful community of creatives in the world
                 </p>
               </div>
+              <div className='rec257'></div>
+              <div className='rec256'></div>
             </div>
           </Cell>
           <Cell col={9} className='right_rec'>
@@ -122,7 +125,7 @@ export default class Signup extends Component {
                 </div>
                 <div>
                   <p className='gotosignin'>
-                    Always a member? <a href='#'>Sign In</a>
+                    Always a member? <a href='#'>&nbsp; Sign In</a>
                   </p>
                 </div>
               </div>

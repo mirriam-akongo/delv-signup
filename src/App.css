@@ -21,10 +21,26 @@
   left: 0px;
   top: 0px;
 
+  overflow: hidden;
+
   /* Main - Blue */
 
   background: linear-gradient(0deg, #017eff, #017eff), #ffffff;
 }
+
+.eclipse28 {
+  /* Ellipse 28 */
+
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  left: 376px;
+  top: -88px;
+  right: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
 /* delv_bold 3 */
 
 .delv_bold {
@@ -79,6 +95,40 @@
 
   color: #ffffff;
   opacity: 0.8;
+}
+
+.rec256 {
+  /* Rectangle 256 */
+
+  position: absolute;
+  width: 217px;
+  height: 254px;
+  left: -39px;
+  top: 720px;
+  bottom: 0;
+
+  /* margin-bottom: -20px; */
+
+  /* Text Secondary Color */
+
+  background: #191919;
+  opacity: 0.15;
+}
+.rec257 {
+  /* Rectangle 257 */
+
+  position: absolute;
+  width: 217px;
+  height: 274px;
+  left: -15px;
+  top: 700px;
+  right: 0;
+  opacity: 0.15;
+  /* Text Secondary Color */
+
+  border: 8px solid #191919;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Signup right side */
@@ -380,16 +430,32 @@ input::placeholder {
   border: 1px solid #bfd1e0;
   box-sizing: border-box;
   border-radius: 4px;
+  text-indent: 15px;
+  color: #828282;
 }
 
-select option {
-  /* Category */
+.category option {
+  /* Rectangle 289 */
 
   position: absolute;
-  width: 366.6px;
-  height: 17.24px;
-  left: 18.41px;
-  top: 410.38px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 4px 4px;
+  text-indent: 15px;
+}
+.category option li {
+  /* Student */
+
+  position: absolute;
+  left: 8.2%;
+  right: 74.59%;
+  top: 14.41%;
+  bottom: 77.93%;
 
   font-family: Graphik;
   font-style: normal;
@@ -397,12 +463,13 @@ select option {
   font-size: 14px;
   line-height: 15px;
   text-indent: 15px;
+
   /* Gray 3 */
 
   color: #828282;
 }
 
-select:focus {
+select option:hover {
   /* Main - Blue */
 
   color: linear-gradient(0deg, #017eff, #017eff), #ffffff;
@@ -460,6 +527,30 @@ select:focus {
 
   background: linear-gradient(0deg, #017eff, #017eff), #ffffff;
   border-radius: 4px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: Graphik;
+  font-weight: 500;
+}
+.btnsignup {
+  /* Sign Up */
+
+  position: absolute;
+  width: 74.72px;
+  height: 20.69px;
+  left: 148.29px;
+  top: 541.76px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Graphik;
+
+  /* White */
+
+  color: #ffffff;
 }
 
 .gotosignin {
@@ -482,4 +573,9 @@ select:focus {
   /* Gray 3 */
 
   color: #828282;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
 }
