@@ -1,42 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 @import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
 * {
   margin: 0;
@@ -141,7 +102,7 @@
   height: 640.29px;
   left: 256px;
   top: 130px;
-  border: 1px solid rgb(24, 14, 14);
+  /* border: 1px solid rgb(24, 14, 14); */
 }
 
 .formh3 {
@@ -161,4 +122,364 @@
   /* Charcoal */
 
   color: #414250;
+}
+
+.google {
+  /* Rectangle 268 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 2.3px;
+  top: 49.43px;
+
+  background: #ffffff;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.google_logo {
+  /* s 1 */
+  position: absolute;
+  width: 31.04px;
+  height: 27.59px;
+  left: 9.2px;
+  top: 9.2px;
+
+  background: url(./assets/google.svg);
+}
+
+.google_email {
+  /* Continue with Google */
+
+  position: absolute;
+  width: 181.63px;
+  height: 19.54px;
+  left: 91.96px;
+  top: 13.79px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+
+  /* Charcoal */
+
+  color: #414250;
+}
+
+.facebook {
+  /* Rectangle 269 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 2.3px;
+  top: 118.4px;
+
+  background: #ffffff;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.facebook_logo {
+  position: absolute;
+  width: 34.49px;
+  height: 34.49px;
+  left: 8.05px;
+  top: 5.75px;
+
+  background: url(./assets/facebook.svg);
+}
+
+.facebook_name {
+  /* Continue with Facebook */
+
+  position: absolute;
+  width: 203.47px;
+  height: 19.54px;
+  left: 81.62px;
+  top: 13.79px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+
+  /* Charcoal */
+
+  color: #414250;
+}
+
+.line {
+  /* Line 51 */
+
+  position: absolute;
+  width: 167.29px;
+  height: 0px;
+  left: 0px;
+  top: 190.82px;
+
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+}
+
+.or {
+  /* OR */
+
+  position: absolute;
+  width: 25.29px;
+  height: 14.94px;
+  left: 175.88px;
+  top: 182.78px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+
+  /* Heding text secondary */
+
+  color: #7a8894;
+}
+
+.line2 {
+  /* Line 52 */
+
+  position: absolute;
+  width: 167.29px;
+  height: 0px;
+  left: 201.71px;
+  top: 190.82px;
+
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+}
+
+.fname {
+  /* Rectangle 261 */
+
+  position: absolute;
+  width: 177.7px;
+  height: 45.98px;
+  left: 0px;
+  top: 221.86px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  /* First Name */
+
+  position: absolute;
+  width: 91.96px;
+  height: 17.24px;
+  left: 18.39px;
+  top: 236.8px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-indent: 15px;
+  /* Gray 3 */
+
+  color: #828282;
+}
+
+.lname {
+  /* Rectangle 262 */
+
+  position: absolute;
+  width: 177.7px;
+  height: 45.98px;
+  left: 191.3px;
+  top: 221.86px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.email {
+  /* Rectangle 263 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 0px;
+  top: 279.34px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.phone {
+  /* Rectangle 264 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 0px;
+  top: 337.96px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.category {
+  /* Rectangle 265 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 0px;
+  top: 395.44px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+select option {
+  /* Category */
+
+  position: absolute;
+  width: 366.6px;
+  height: 17.24px;
+  left: 18.41px;
+  top: 410.38px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-indent: 15px;
+  /* Gray 3 */
+
+  color: #828282;
+}
+
+select:focus {
+  /* Main - Blue */
+
+  color: linear-gradient(0deg, #017eff, #017eff), #ffffff;
+}
+
+.password {
+  /* Rectangle 266 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 0px;
+  top: 452.92px;
+
+  /* LightGrayBG */
+
+  background: #f2f5f9;
+  /* line color */
+
+  border: 1px solid #bfd1e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.pass {
+  /* Password must be a least 8 characters long */
+
+  position: absolute;
+  width: 285.08px;
+  height: 14.94px;
+  left: 0px;
+  top: 510.39px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+
+  /* Gray 3 */
+
+  color: #828282;
+}
+
+.submit {
+  /* Rectangle 267 */
+
+  position: absolute;
+  width: 366.6px;
+  height: 45.98px;
+  left: 0px;
+  top: 539.13px;
+
+  /* Main - Blue */
+
+  background: linear-gradient(0deg, #017eff, #017eff), #ffffff;
+  border-radius: 4px;
+}
+
+.gotosignin {
+  /* Always a member? Sign In */
+
+  position: absolute;
+  width: 214.96px;
+  height: 28.74px;
+  left: 78.17px;
+  top: 611.55px;
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  /* Gray 3 */
+
+  color: #828282;
 }
