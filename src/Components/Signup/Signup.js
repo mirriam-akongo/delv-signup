@@ -125,7 +125,7 @@ export default class Signup extends Component {
                 </div>
                 <div>
                   <p className='gotosignin'>
-                    Always a member? <a href='#'>&nbsp; Sign In</a>
+                    Always a member? <a href='signin'>&nbsp; Sign In</a>
                   </p>
                 </div>
               </div>
